@@ -8,7 +8,7 @@ import java.util.concurrent.ConcurrentHashMap;
 @Component
 public class RateLimiter {
 
-    private final int MAX_REQUESTS = 5;  // 5 requests per minute
+    private final int MAX_REQUESTS = 5;  
     private final long TIME_WINDOW = 60 * 1000;
 
     private final Map<String, List<Long>> requestLogs = new ConcurrentHashMap<>();
