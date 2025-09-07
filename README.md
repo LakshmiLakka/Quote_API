@@ -7,5 +7,5 @@ cd Quote_API
 Change it from main → master.
 
 Base URL: 'http://localhost:8081'
-Get Random Quote: 'http://localhost:8081/api/quote`]'
+Get Random Quote: 'http://localhost:8081/api/quote'
 Test Quote Endpoint: 'http://localhost:8081/api/quote/test'
